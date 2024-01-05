@@ -4,7 +4,7 @@ This repository contains the MACE-OFF23 pre-traained transferable organic force 
 To use the models please install the [MACE code](https://github.com/ACEsuit/mace). 
 
 ## License
-By Downloading the models you agree to the Academic Software License. This means you are free to use them for academic purpose, but not for commercial purposes. For details see `LICENSE.md`
+By Downloading the models you agree to the Academic Software License. This means you are free to use them for academic purpose, but not for commercial purposes. For details see [here](https://github.com/gabor1/ASL) or `LICENSE.md`
 
 ## References
 
