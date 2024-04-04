@@ -1,6 +1,6 @@
 #!/bin/bash
 
-python mace_run_train \
+mace_run_train \
     --name="SPICE_medium_neut_E0" \
     --train_file="/path/to/train" \
     --valid_file="/path/to/valid" \
