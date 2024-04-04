@@ -1,0 +1,37 @@
+#!/bin/bash
+
+python mace_run_train \
+    --name="SPICE_medium_neut_E0" \
+    --train_file="/path/to/train \
+    --valid_file="/path/to/valid \
+    --test_dir="/path/to/test" \
+    --statistics_file="/path/to/stats.json" \
+    --E0s="{35: -70045.28385080204, 6: -1030.5671648271828, 17: -12522.649269035726, 9: -2715.318528602957, 1: -13.571964772646918, 53: -8102.524593409054, 7: -1486.3750255780376, 8: -2043.933693071156, 15: -9287.407133426237, 16: -10834.4844708122}" \
+    --model="MACE" \
+    --num_interactions=2 \
+    --num_channels=128 \
+    --max_L=1 \
+    --correlation=3 \
+    --r_max=5.0 \
+    --forces_weight=1000 \
+    --energy_weight=40 \
+    --weight_decay=5e-10 \
+    --clip_grad=1.0 \
+    --batch_size=128 \
+    --valid_batch_size=128 \
+    --max_num_epochs=190 \
+    --scheduler_patience=20 \
+    --patience=50 \
+    --eval_interval=1 \
+    --ema \
+    --swa \
+    --start_swa=115 \
+    --swa_lr=0.00025 \
+    --swa_forces_weight=10 \
+    --num_workers=32 \
+    --error_table='PerAtomMAE' \
+    --default_dtype="float64"\
+    --device=cuda \
+    --seed=123 \
+    --restart_latest \
+    --save_cpu \

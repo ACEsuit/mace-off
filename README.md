@@ -6,6 +6,9 @@ To use the models please install the [MACE code](https://github.com/ACEsuit/mace
 ## License
 By Downloading the models you agree to the Academic Software License. This means you are free to use them for academic purpose, but not for commercial purposes. For details see [here](https://github.com/gabor1/ASL) or `LICENSE.md`
 
+
+## Training data
+The dataset used to train and evaluate the models is available [here](10.17863/CAM.107498)
 ## References
 
 If you use the models please cite
