@@ -2,7 +2,7 @@
 
 python mace_run_train \
     --name="SPICE_medium_neut_E0" \
-    --train_file="/path/to/train \
+    --train_file="/path/to/train" \
     --valid_file="/path/to/valid \
     --test_dir="/path/to/test" \
     --statistics_file="/path/to/stats.json" \
