@@ -8,7 +8,7 @@ By Downloading the models you agree to the Academic Software License. This means
 
 
 ## Training data
-The dataset used to train and evaluate the models is available [here](10.17863/CAM.107498)
+The dataset used to train and evaluate the models is available [here](http://doi.org/10.17863/CAM.107498)
 ## References
 
 If you use the models please cite
