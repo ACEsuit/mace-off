@@ -1,5 +1,5 @@
 # MACE-OFF models
-This repository contains the MACE-OFF23 pre-traained transferable organic force fields. 
+This repository contains the MACE-OFF23 pre-trained transferable organic force fields. 
 
 To use the models please install the [MACE code](https://github.com/ACEsuit/mace). 
 
