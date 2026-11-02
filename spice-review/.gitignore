@@ -1,0 +1,19 @@
+# Large input data and generated data-quality reports
+/data/*
+!/data/.gitkeep
+
+# Model checkpoints
+/models/
+/model/
+
+# Generated evaluation artifacts
+/results/*.csv
+/results/*_smoke.png
+
+# Local environments and editor state
+.DS_Store
+.idea/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
